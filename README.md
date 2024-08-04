@@ -8,7 +8,9 @@ For detailed information about the solution approach, refer to the [SOLUTION_APP
 
 ### Working Video
 The video passed multiple times to wait for free API to reset as it was getting exhausted. You get idea how it works. It will work more better if used with paid advanced llms.
-Checkout the video here, [Working.mp4](Working.mp4) file.
+Checkout the video here:
+On Github a low quality one as size limit is 25mb, here [Working_SD_Video.mp4](Working_SD_Video.mp4) file.
+On Google Drive a high quality video, here [Working_HD_Video](https://drive.google.com/file/d/1VfM7D53ZQuGkCYYVMspzNH-77cPM2Nn4/view?usp=sharing) file.
 
 ### Features:
 1. CSV file upload and preprocessing
