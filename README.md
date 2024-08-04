@@ -3,6 +3,9 @@ This app was developed as part of an assignment using LangChain and the Gemini 1
 
 This Streamlit application allows users to upload CSV files, perform data analysis, and generate insights using AI-powered language models.
 
+### Solution Approach
+For detailed information about the solution approach, refer to the [SOLUTION_APPROACH.md](SOLUTION_APPROACH.md) file.
+
 ### Features:
 1. CSV file upload and preprocessing
 2. Data summary and statistical analysis
@@ -79,9 +82,6 @@ This Streamlit application allows users to upload CSV files, perform data analys
 
 ### Note:
 This application uses the Gemini 1.5 Flash model from Google's Generative AI. The free version of the API is currently in use, which may limit the quality and speed of responses. For better performance, consider upgrading to a paid plan or a more advanced model.
-
-### Solution Approach
-For detailed information about the solution approach, refer to the [SOLUTION_APPROACH.md](SOLUTION_APPROACH.md) file.
 
 ### Contributing:
 Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
