@@ -6,6 +6,10 @@ This Streamlit application allows users to upload CSV files, perform data analys
 ### Solution Approach
 For detailed information about the solution approach, refer to the [SOLUTION_APPROACH.md](SOLUTION_APPROACH.md) file.
 
+### Working Video
+The video passed multiple times to wait for free API to reset as it was getting exhausted. You get idea how it works. It will work more better if used with paid advanced llms.
+Checkout the video here, [Working.mp4](Working.mp4) file.
+
 ### Features:
 1. CSV file upload and preprocessing
 2. Data summary and statistical analysis
@@ -61,6 +65,13 @@ For detailed information about the solution approach, refer to the [SOLUTION_APP
         ```bash
         set GOOGLE_API_KEY=your_api_key_here
         ```
+5. **Only if uploading a csv encounters an error**
+   In the working directory, create a folder .streamlit. In that folder create a file named config.toml and paste below config:
+   ```bash
+   [server]
+   enableXsrfProtection = false
+   ```
+   Make sure .streamlit folder and app.py are in same directory. This will fix the file upload error
 
 ### Usage:
 1. Run the Streamlit app:
